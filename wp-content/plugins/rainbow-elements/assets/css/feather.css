@@ -1,9 +1,9 @@
 @font-face {
 	font-family: 'Feather';
 	src:
-	url('../fonts/Feather.ttf?sdxovp') format('truetype'),
-	url('../fonts/Feather.woff?sdxovp') format('woff'),
-	url('../fonts/Feather.svg?sdxovp#Feather') format('svg');
+	url('http://perfait.github.io/Akaka-The-Detailed/wp-content/plugins/rainbow-elements/assets/fonts/Feather.ttf?sdxovp') format('truetype'),
+	url('http://perfait.github.io/Akaka-The-Detailed/wp-content/plugins/rainbow-elements/assets/fonts/Feather.woff?sdxovp') format('woff'),
+	url('http://perfait.github.io/Akaka-The-Detailed/wp-content/plugins/rainbow-elements/assets/fonts/Feather.svg?sdxovp#Feather') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
