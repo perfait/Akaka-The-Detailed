@@ -1,0 +1,176 @@
+.demo-warning-info{
+	background-image: url(warning.png);
+	background-size: 50px;
+	background-repeat: no-repeat;
+	background-position: 15px center;
+	padding: 30px 30px 30px 85px;
+	font-size: 20px;
+	font-weight: 500;
+	color: #d63638;
+	background-color: #ffe0de;
+	border: none;
+	border-radius: 6px;
+	border-left: 4px solid #d63638;
+}
+.demo-warning-info:first-word{
+	color: #dc3232;
+}
+#fw-ext-backups-demo-list .fw-ext-backups-demo-item.active .theme-actions {
+	display: block !important;
+}
+.wp-heading-inline.icon-left{
+	background-image: url(icon.png);
+	background-repeat: no-repeat;
+	padding: 35px 35px 35px 100px;
+	margin-bottom: 15px;
+	content: "";
+	background-size: 70px;
+	display: block !important;
+	background-color: #1e2024 !important;
+	background-position: 15px center;
+	color: #fff;
+	border-radius: 6px;
+}
+
+body > .fw-sole-modal > .media-modal > .media-modal-content {
+	border-radius: 10px;
+}
+
+/*----------------------------------------------------------
+	Preview Styling
+------------------------------------------------------------ */
+
+
+#fw-ext-backups-demo-list .theme {
+	border-radius: 6px;
+	overflow: hidden;
+	border: 0px solid transparent;
+	box-shadow: 10px 10px 19px #1c1e22, -10px -10px 19px #262a2e;
+	background: linear-gradient(145deg, #1e2024, #23272b);
+	position: relative;
+}
+
+@media only screen and (min-width: 1640px){
+	#fw-ext-backups-demo-list .theme .theme-screenshot:after {
+		padding-top: 70%;
+	}
+}
+
+#fw-ext-backups-demo-list .theme .theme-actions .button {
+	background: linear-gradient(to right bottom, #212428, #16181c);
+	color: #ffffff;
+	border: none;
+	padding: 6px 25px;
+	transition: 0.3s;
+	margin: 0;
+	box-shadow: 5px 5px 10px #1c1e22, -5px -5px 10px #262a2e;
+	text-transform: uppercase;
+	font-weight: 700;
+	letter-spacing: .5px;
+}
+#fw-ext-backups-demo-list .theme .theme-actions .button:hover,
+#fw-ext-backups-demo-list .wp-core-ui .button-primary:focus{
+	background: #ff014f;
+	box-shadow: 0 10px 15px 0 rgb(255 68 68 / 20%);
+}
+#fw-ext-backups-demo-list .theme .theme-actions .button:focus{
+	outline: none;
+	border: none;
+}
+#fw-ext-backups-demo-list .theme .theme-name {
+	padding: 20px;
+	margin: 0;
+	box-shadow: none;
+	background: linear-gradient(145deg, #1e2024, #23272b);
+	height: auto;
+	font-size: 16px;
+	border-top: 1px solid #1a1d23;
+	margin-top: 0;
+	font-weight: 400;
+	color: #fff;
+}
+
+div#fw-ext-backups-demo-list {
+	overflow: hidden;
+	background: linear-gradient(145deg, #1e2024, #23272b);
+	padding: 50px 50px 10px 50px;
+	border-radius: 6px;
+}
+
+#fw-ext-backups-demo-list .theme::after {
+	content: "";
+	position: absolute;
+	transition: var(--transition);
+	width: 100%;
+	height: 100%;
+	border-radius: 6px;
+	top: 0;
+	left: 0;
+	background: linear-gradient(to right bottom, #212428, #16181c);
+	opacity: 0;
+	z-index: -1;
+}
+
+#fw-ext-backups-demo-list .theme.focus .theme-screenshot,
+#fw-ext-backups-demo-list .theme:hover .theme-screenshot {
+	background: rgba(0, 0, 0, 0.5);
+}
+
+#fw-ext-backups-demo-list .theme .more-details {
+	display: inline-block;
+	padding: 14px 0;
+	background: #212428bf;
+	font-size: 14px;
+	border-radius: 6px;
+	transition: 0.4s;
+	color: #fff;
+	text-shadow: none;
+	width: 50%;
+	transform: translateX(-50%);
+	left: auto;
+	right: 0;
+}
+#fw-ext-backups-demo-list.rendered .theme .more-details:hover,
+#fw-ext-backups-demo-list.rendered .theme .more-details:focus{
+	background: #23272b;
+	outline: none;
+	border: none;
+}
+
+#fw-ext-backups-demo-list .theme .theme-actions,
+#fw-ext-backups-demo-list .theme.active .theme-actions {
+	background: none;
+	padding: 9px 10px;
+	margin: 0;
+	box-shadow: none;
+	border-left: 1px solid #1a1d23;
+}
+
+
+/* Active Demo */
+#fw-ext-backups-demo-list .theme.active_demo::before {content: "";width: 100%;height: 100%;position: absolute;left: 0;top: 0;z-index: 66;}
+
+#fw-ext-backups-demo-list .theme.active_demo {
+	position: relative;
+	pointer-events: none;
+}
+
+#fw-ext-backups-demo-list .active_demo h3.theme-name {
+	position: relative;
+}
+
+#fw-ext-backups-demo-list .active_demo h3.theme-name::before {
+	content: "Activated Demo \2714";
+	position: absolute;
+	left: 0;
+	top: 0;
+	background: linear-gradient(to right, #6a67ce, #fc636b) !important;
+	z-index: 9;
+	color: #fff;
+	text-transform: uppercase;
+	line-height: 55px;
+	font-weight: 500;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+}

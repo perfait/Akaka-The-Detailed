@@ -1,1 +1,0 @@
-# Akaka-The-Detailed
